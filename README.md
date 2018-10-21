@@ -3,7 +3,7 @@ Hi, this is where I've uploaded some of my projects. My primary language is Java
 
 My discord bot the "EmojiBot" is in the folder named: "EmojiBot-py"
 
-My first plugin named "OPtest" is in the folder named: "RetreiveOP" and can be viewed at spigot [https://www.spigotmc.org/resources/optest.57024/](here)
+My first plugin named "OPtest" is in the folder named: "RetreiveOP" and can be viewed at spigot (here)[https://www.spigotmc.org/resources/optest.57024/]
 
 My second plugin named "Screenshare Advanced" is in the folder named: "Screenshare" and can be viewed at spigot (here)[https://www.spigotmc.org/resources/screenshare-advanced.60485/]: 
 
