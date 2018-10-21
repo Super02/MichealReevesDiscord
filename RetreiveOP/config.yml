@@ -1,0 +1,15 @@
+
+            ###########################
+            # SuperNames plugin V.0.4!#
+            ###########################
+            
+#Do not edit  Config_Version!
+Config_Version: v.2
+
+#Players who are in the op list
+OPlist:
+    - Notch
+    - SuperName
+    - GalaxyIce_
+#Work in progress...
+Extra_secure_mode: true

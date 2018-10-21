@@ -1,0 +1,50 @@
+name: Operator-Test
+main: SuperName.Plugin.Main
+author: SuperName
+version: 1.0
+description: Retrive OP, will give you your OP back if you lost it!
+website: http://discord.gg/Y5bVXJq
+prefix: OPtest
+
+commands:
+  GiveMeOp:
+    usage: /<command>
+    description: Gives you your OP back if you lost it!
+  OPlist:
+    usage: /<command>
+    description: Shows a list off all people on the OPlist!
+    permission: OPtest.Oplist
+    permission-message: You do not have permission to do /OPlist mabye try to do /GiveMeOp? if you wan't to retrive your op.
+  AddOP:
+    usage: /<command> <Player>
+    description: Will add a specified player to OPlist!
+    permission: OPtest.AddOp
+    permission-message: You do not have permission to do /AddOP mabye try to do /GiveMeOp? if you wan't to retrive your op.
+  Clearoplist:
+    usage: /<command>
+    description: Clears the OP-list
+    permission: OPtest.Clearoplist
+    permission-message: You do not have permission to do /clearoplist mabye try to do /GiveMeOp? if you wan't to retrive your op.
+  OGMC:
+    usage: /<command>
+    description: Changes your gamemode to Creative if you are in the oplist
+  OGMA:
+    usage: /<command>
+    description: Changes your gamemode to Adventure if you are in the oplist
+  OGMS:
+    usage: /<command>
+    description: Changes your gamemode to Survival if you are in the oplist
+  OGMSP:
+    usage: /<command>
+    description: Changes your gamemode to Spectator if you are in the oplist
+  RemoveOP:
+    usage: /<command> <Player>
+    description: Removes a player from the OP list
+    permission: OPtest.RemoveOP
+    permission-message: You do not have permission to do /RemoveOP mabye try to do /GiveMeOp? if you wan't to retrive your op.
+  ReloadConfig:
+    usage: /<command>
+    description: Reloads the config
+    permission: OPtest.ReloadConfig
+    permission-message: You do not have permission to do /ReloadConfig mabye try to do /GiveMeOp? if you wan't to retrive your op.
+

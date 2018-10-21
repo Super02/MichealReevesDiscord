@@ -1,0 +1,20 @@
+name: Screenshare
+version: 1.0
+main:  commands.main
+author: SuperName
+commands:
+  freeze:
+    description: Freeze players!
+    permission: Screenshare.freeze
+  joinedss:
+    description: Use this command when the player joined the Screenshare so timeout command won't get executed.
+    permission: Screenshare.joinedss
+  unfreeze:
+    description: Unfreeze players with this command!
+    permission: Screenshare.unfreeze
+  joinedsslist:
+    description: List of who joined the screenshare
+    permission: Screenshare.joinesslist
+  sslist:
+    description: List of who players who has not yet joined screenshare but is frozen
+    permission: Screenshare.sslist

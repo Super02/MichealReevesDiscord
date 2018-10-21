@@ -1,0 +1,56 @@
+ ###############################################################################################################
+#              _                               _    _____                           _____ _                     # 
+#     /\      | |                             | |  / ____|                         / ____| |                    #
+#    /  \   __| |_   ____ _ _ __   ___ ___  __| | | (___   ___ _ __ ___  ___ _ __ | (___ | |__   __ _ _ __ ___  # 
+#   / /\ \ / _` \ \ / / _` | '_ \ / __/ _ \/ _` |  \___ \ / __| '__/ _ \/ _ \ '_ \ \___ \| '_ \ / _` | '__/ _ \ # 
+#  / ____ \ (_| |\ V / (_| | | | | (_|  __/ (_| |  ____) | (__| | |  __/  __/ | | |____) | | | | (_| | | |  __/ #
+# /_/    \_\__,_| \_/ \__,_|_| |_|\___\___|\__,_| |_____/ \___|_|  \___|\___|_| |_|_____/|_| |_|\__,_|_|  \___  #
+#                                                                                                               #
+ ###############################################################################################################
+
+
+
+#Use {USER} for player that issues command (Does not work with the You have been frozen ones) and use {TARGET} for the target player (Does not work with the You have been frozen ones and the please specify a player)
+Messages:
+#Message you receive when doing /sslist with the names of the people after
+    sslist_message: "&6&lThis is the list of who has not yet joined the screenshare"
+#Message you receive when doing /joinedsslist with the names of the people after
+    joinedsslist_message: "&6&lThis is the list of who joined the screenshare"
+#Message when a player is bypassing a screenshare (If player has screenshare.bypass he/she can not be screenshared)
+    Player_Bypassing: "&cYou can not freeze this player"
+#Supports Colors {TARGET} and {USER} (User is the user who issued the command and target is the target)
+    Un_Freeze: "You have been, &6Unfrozen!"
+#Supports Colors {TARGET} and {USER} (User is the user who issued the command and target is the target)
+    Freeze: "You have been, &6Frozen!"
+#Supports {TARGET} and {USER} and Colors
+    On_Freeze: "You froze {TARGET}"
+#Supports {TARGET} and {USER} and colors
+    On_UnFreeze: "You unfroze {TARGET}"
+#Supports {USER} and colors
+    Specify_Player: "{USER} Please specify a player"
+#Supports {TARGET} and {USER} and colors
+    On_Player_already_off: "&6{TARGET} Is not frozen {USER}"
+#Supports {TARGET} and {USER} and colors
+    On_Player_already_on: "&6{TARGET} Is already frozen {USER}"
+    
+# Joined ScreenShare command messages:
+
+#Message when player is not frozen and you're trying to say that they've joined ScreenShare
+    On_Joinedss_Already_false: "Player not frozen!"
+#Message you receive when removing player from joined screenshare list
+    On_UnSS: "Succesfuly removed player from joined list" 
+#Message when they get removed getting screenshare list
+    Un_SS: "You left our screenshare" 
+#Message you receive when trying to add a player that is already on the joined screenshare list
+    On_Joinedss_Already_true: "This player has already joined the screenshare remove him with /joinedss {TARGET} false"
+#Message you receive when adding a player to joined screenshare list
+    On_JoinedSS: "Noted... {TARGET} Joined ScreenShare"
+#Message player receives when they got added to joined screenshare list
+    JoinedSS: "You're now getting screenshare"
+#Message when you did not specify a player...
+    Specify_Player_JoinedSS: "{USER} Please specify a player"
+    
+#Message when you do /joinedsslist and no one has joined the screenshare
+    NoOne_HasJoinedSS_Error: "&6No one has joined the screenshare"
+#Message when you do /sslist and no one is frozen
+    NoOne_IsFrozen_Error: "&6No one is frozen."
